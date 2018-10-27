@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="form" name="form" method="post" action="{:url('index/tzh')}">
+<div><img src="{:captcha_src()}" onclick="this.src='{:captcha_src()}'" alt="captcha"  ></div>
+    <input type="text" id="code" name="code">
+    <input type="text" name="name" placeholder="请输入用户名">
+    <button id="submit">提交</button>
+</form>
+</body>
+</html>
